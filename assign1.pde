@@ -42,7 +42,7 @@ void draw() {
   if (enemyX > 640) {
   enemyX = 0;
   }
-  enemyX += 3;
+  enemyX += 5;
   
   if (bg2X > 640) {
   bg2X = 0;
