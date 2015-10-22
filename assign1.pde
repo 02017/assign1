@@ -32,12 +32,12 @@ void draw() {
   image(bg1,bg2X-640,0);
   image(fighter,580,240);
   image(treasure,treasureX,treasureY);
-  image(hp,5,5);
   
   rectMode(CORNERS);
   fill(220,20,20);
   rect(10,10,10+bloodL,25,5);
   image(enemy,enemyX,enemyY);
+  image(hp,5,5);
 
   if (enemyX > 640) {
   enemyX = 0;
